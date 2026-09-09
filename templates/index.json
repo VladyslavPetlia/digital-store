@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powering Your Digital Lifestyle",
+            "heading_size": "h0"
+          }
+        },
+        "text_ktzX84": {
+          "type": "text",
+          "settings": {
+            "text": "Discover the latest smartphones, laptops, gaming gear, and smart home devices at unbeatable price. Shop top brands whit fast delivery and secure payments.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_ktzX84",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_98.avif",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1433f625-021b-4617-831f-1b5e91c2f75d",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "left",
+        "show_text_below": false
+      }
+    },
+    "collection_carousel_j6im4D": {
+      "type": "collection-carousel",
+      "blocks": {
+        "collection_iwrDTF": {
+          "type": "collection",
+          "settings": {
+            "collection": "phones",
+            "title": ""
+          }
+        },
+        "collection_nmpjfJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "laptops",
+            "title": ""
+          }
+        },
+        "collection_9weGEN": {
+          "type": "collection",
+          "settings": {
+            "collection": "headphones",
+            "title": ""
+          }
+        },
+        "collection_YiBbda": {
+          "type": "collection",
+          "settings": {
+            "collection": "wathes",
+            "title": ""
+          }
+        },
+        "collection_7kQ4PX": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": ""
+          }
+        },
+        "collection_tenrYQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "mac",
+            "title": ""
+          }
+        },
+        "collection_wUYbAp": {
+          "type": "collection",
+          "settings": {
+            "collection": "smart-tv",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_iwrDTF",
+        "collection_nmpjfJ",
+        "collection_9weGEN",
+        "collection_YiBbda",
+        "collection_7kQ4PX",
+        "collection_tenrYQ",
+        "collection_wUYbAp"
+      ],
+      "name": "Collections-Carousel",
+      "settings": {
+        "title": "Collections",
+        "section-text_align": "center",
+        "number_slider_desktop": 4
+      }
+    },
+    "rich_text_GrUW4W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AkLfK8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover What Sets Us Apart",
+            "heading_size": "h1"
+          }
+        },
+        "text_aK98iF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to our digital store, where quality meets convenience. Browse our curated selection of digital products and services designed to enhance your life. Fast delivery, secure transactions, and dedicated customer support ensure a seamless shopping experience every time.</p>"
+          }
+        },
+        "button_JJCdkN": {
+          "type": "button",
+          "settings": {
+            "button_label": "All Products",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AkLfK8",
+        "text_aK98iF",
+        "button_JJCdkN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1cf5f32b-afec-4ecf-b518-6a022a9032a6",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 92
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "banners_PaEBMm": {
+      "type": "banners",
+      "blocks": {
+        "banner_FmrKCM": {
+          "type": "banner",
+          "settings": {
+            "banner_image": "shopify://shop_images/laptopstopicpage-2048px-3685-2x1-1.avif",
+            "banner-top_description": "<p>Todays Best Deal</p>",
+            "heading": "All top products",
+            "banner-bottom_description": "<p>Up to 25% off</p>",
+            "button_label": "Products",
+            "button_url": "shopify://collections/all"
+          }
+        },
+        "banner_WGQVjn": {
+          "type": "banner",
+          "settings": {
+            "banner_image": "shopify://shop_images/pexels-spitak-11376175.avif",
+            "banner-top_description": "<p>Todays Best Deal</p>",
+            "heading": "Premium Collections",
+            "banner-bottom_description": "<p>Up to 25% off</p>",
+            "button_label": "Collections",
+            "button_url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "banner_FmrKCM",
+        "banner_WGQVjn"
+      ],
+      "name": "Banners",
+      "settings": {
+        "section_title": "",
+        "color_scheme": "scheme-a7881993-6606-481c-9d2c-e3e5ee780a31"
+      }
+    },
+    "featured_collection_EFVnVq": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "phones",
+        "products_to_show": 4,
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_epr3en": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AnpkLn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_JDnEnA": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content.",
+            "text_style": "body"
+          }
+        },
+        "buttons_jTz3jD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Collections",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AnpkLn",
+        "text_JDnEnA",
+        "buttons_jTz3jD"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_95.avif",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-a7881993-6606-481c-9d2c-e3e5ee780a31",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "left",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "collection_carousel_j6im4D",
+    "rich_text_GrUW4W",
+    "featured_collection",
+    "banners_PaEBMm",
+    "featured_collection_EFVnVq",
+    "image_banner_epr3en"
+  ]
+}

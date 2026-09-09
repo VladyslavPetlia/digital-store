@@ -1,0 +1,52 @@
+{{ 'page-banner.css' | asset_url | stylesheet_tag }}
+
+{%- assign banner = section.settings.page_mebaobject_banner -%}
+
+{% if banner != blank %}
+  <div class="page-width">
+    {%- if banner.image != blank -%}
+      <div class="page-banner_image-container">
+        {{
+          banner.image
+          | image_url: width: 1200
+          | image_tag: loading: 'eager', sizes: '(min-width: 750px) 50vw, 100vw'
+        }}
+
+        <h2 class="page-banner_title">
+          {{ banner.title }}
+        </h2>
+      </div>
+    {%- endif -%}
+
+    {%- if banner.description != blank -%}
+      <div class="page-banner_description">
+        {{ banner.description | newline_to_br }}
+      </div>
+    {%- endif -%}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Page Banner",
+  "settings": [
+    {
+      "type": "metaobject",
+      "id": "page_mebaobject_banner",
+      "label": "Page Banner",
+      "metaobject_type": "page_banner"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-10"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Banner"
+    }
+  ]
+}
+{% endschema %}

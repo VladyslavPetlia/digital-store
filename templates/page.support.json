@@ -1,0 +1,252 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {color: #111739;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_banner_XiFWxP": {
+      "type": "page-banner",
+      "name": "Page Banner",
+      "settings": {
+        "page_mebaobject_banner": "how-can-we-help-you-today",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10"
+      }
+    },
+    "multi_section_y9hBPV": {
+      "type": "multi-section",
+      "blocks": {
+        "multi_section_rM7fH7": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/streamline-plump-color_user-multiple-accounts.svg",
+            "title": "Account Issues",
+            "title_size": 20,
+            "description": "<p>Having a trouble with your account?</p>",
+            "link_text": "Accont Troubleshoot",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_MUnVVm": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/mage_book.svg",
+            "title": "User Manual & Download",
+            "title_size": 16,
+            "description": "<p>Get the latest drivers, manuals, firmware, and softwer.</p>",
+            "link_text": "Chack Manual",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_68fLUw": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/fluent_shield-task-20-regular.svg",
+            "title": "Warranty",
+            "title_size": 16,
+            "description": "<p>Find out what is covered.</p>",
+            "link_text": "Details",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_Ef4xjV": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/hugeicons_repair.svg",
+            "title": "Request a repair",
+            "title_size": 16,
+            "description": "<p>Schedule a walk-in, mail-in, or We come to you repair service.</p>",
+            "link_text": "Contact Us",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_99hGky": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/hugeicons_repair.svg",
+            "title": "Title",
+            "title_size": 16,
+            "description": "<p>Some Description text</p>",
+            "link_text": "Some link",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "multi_section_rM7fH7",
+        "multi_section_MUnVVm",
+        "multi_section_68fLUw",
+        "multi_section_Ef4xjV",
+        "multi_section_99hGky"
+      ],
+      "name": "Multi Section",
+      "settings": {
+        "text_color": "#111739",
+        "background_color": "#f9f9f9"
+      }
+    },
+    "banners_P8eYPX": {
+      "type": "banners",
+      "blocks": {
+        "banner_mJfk3X": {
+          "type": "banner",
+          "settings": {
+            "banner_image": "shopify://shop_images/revendo-7x0dGJqbfgk-unsplash.avif",
+            "banner-top_description": "",
+            "heading": "My repair status",
+            "banner-bottom_description": "<p>Check the status of</p><p>your ongoing repairs</p><p>or review previous</p><p>service records.</p>",
+            "button_label": "View more",
+            "button_url": "shopify://blogs/news"
+          }
+        },
+        "banner_rkLJBB": {
+          "type": "banner",
+          "settings": {
+            "banner_image": "shopify://shop_images/firmbee-com-SpVHcbuKi6E-unsplash.avif",
+            "banner-top_description": "",
+            "heading": "Contact history",
+            "banner-bottom_description": "<p>See the full history and</p><p>details or your </p><p>contacts for reference.</p>",
+            "button_label": "View more",
+            "button_url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "banner_mJfk3X",
+        "banner_rkLJBB"
+      ],
+      "name": "Banners",
+      "settings": {
+        "section_title": "",
+        "color_scheme": "scheme-a7881993-6606-481c-9d2c-e3e5ee780a31"
+      }
+    },
+    "collapsible_content_zXPCLb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4TV7Ed": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technical Support",
+            "icon": "clipboard",
+            "row_content": "<ul><li><strong>Defective items:</strong> Contact support within 48 hours if your gadget arrives broken or dead on arrival.</li><li><strong>Firmware issues:</strong> Check the product page download tab for the latest software updates and installation steps.</li><li><strong>Compatibility:</strong> Verify hardware requirements on the packaging before breaking the factory seal.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4PrFAi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Payments & Billing",
+            "icon": "clipboard",
+            "row_content": "<p><strong>Methods:</strong> We accept major credit cards, digital wallets, bank transfers, and authorized installment plans.</p><p><strong>Verification:</strong> Large orders may require a quick phone call to confirm identity and prevent unauthorized charges.</p><p><strong>Tax invoices:</strong> Download your formal VAT/tax invoice directly from your order history page.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4mKj39": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Account & Security",
+            "icon": "clipboard",
+            "row_content": "<ul><li><strong>Data privacy:</strong> We never store full credit card numbers on our local servers.</li><li><strong>Password reset:</strong> Click \"Forgot Password\" on the login page to receive a secure recovery link.</li><li><strong>Newsletter:</strong> Manage your promotional email preferences inside your account profile settings.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ab8c6y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Returns & Refunds",
+            "icon": "clipboard",
+            "row_content": "<p><strong>Window:</strong> Items can be returned within 14 days of receipt if unopened and in original condition.</p><p><strong>Process:</strong> Submit a request via the customer account page or email support to get a return label.</p><p><strong>Exclusions:</strong> Opened software, customized items, and physical damage caused by users are non-refundable.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4TV7Ed",
+        "collapsible_row_4PrFAi",
+        "collapsible_row_4mKj39",
+        "collapsible_row_Ab8c6y"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_KDHAAg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_39V7zH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Our Support",
+            "heading_size": "h1"
+          }
+        },
+        "text_CitEya": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Contact us online through chat and get support from an expert on your computer, mibile device or tablet.</p>"
+          }
+        },
+        "button_knxjVJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_39V7zH",
+        "text_CitEya",
+        "button_knxjVJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1cf5f32b-afec-4ecf-b518-6a022a9032a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_banner_XiFWxP",
+    "multi_section_y9hBPV",
+    "banners_P8eYPX",
+    "collapsible_content_zXPCLb",
+    "rich_text_KDHAAg"
+  ]
+}

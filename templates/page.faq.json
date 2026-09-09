@@ -1,0 +1,174 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {color: #111739;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_p96iTA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Rb4YAf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my order ship?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Most orders ship within 1-2 business days. You'll receive a shipping confirmation email with tracking information as soon as your order leaves our warehouse. Processing times may be longer during peak seasons or for made-to-order items. Check your order status in your account for real-time updates.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_g4Amrg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does delivery take?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Delivery times vary depending on your location and the shipping method selected at checkout. Standard shipping typically takes 5-7 business days, while expedited options may arrive within 2-3 business days. International orders may require additional time for customs processing. You'll receive a tracking number with your order confirmation so you can monitor your shipment every step of the way.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gFhmgP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I track my order?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Yes, you can track your order at any time. Once your order ships, you'll receive an email with a tracking number and a link to monitor its progress. You can also log into your account and view your order status in the order details section. If you have any questions about your shipment, feel free to contact our customer support team.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qRKg94": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the return policy?",
+            "icon": "chat_bubble",
+            "row_content": "<p>We accept returns within 30 days of purchase. Items must be unused and in original condition with all packaging and tags intact. To start a return, contact our customer service team with your order number. Once approved, we'll provide a prepaid shipping label. Refunds are processed within 5-7 business days after we receive and inspect your item.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UCHVcN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are products covered by a warranty?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Yes, all of our products are backed by a manufacturer's warranty that covers defects in materials and workmanship. The warranty period varies by product category, so please check your product documentation or contact our customer service team for specific details about your item. We stand behind the quality of everything we sell and are here to help if you have any concerns.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VLTQnD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I start a return?",
+            "icon": "chat_bubble",
+            "row_content": "<p>To start a return, visit our Returns Center and select the order you'd like to return. Follow the prompts to choose which items you want to return and your reason. Once submitted, you'll receive a prepaid shipping label via email. Pack your items securely, attach the label, and drop off your package at any authorized shipping location. Your refund will be processed within 5-7 business days after we receive and inspect your return.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wpg4CV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the gadgets brand new?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Yes, all our gadgets are brand new and come directly from the manufacturer. Each item is inspected before shipping to ensure it arrives in perfect condition. We stand behind the quality of every product we sell.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_et7zPB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need an account to buy?",
+            "icon": "chat_bubble",
+            "row_content": "<p>No, you can check out as a guest. We offer guest checkout so you can complete your purchase without creating an account. If you'd like to create an account for faster future orders and to track your purchases, you can do that during checkout or anytime afterward.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Rb4YAf",
+        "collapsible_row_g4Amrg",
+        "collapsible_row_gFhmgP",
+        "collapsible_row_qRKg94",
+        "collapsible_row_UCHVcN",
+        "collapsible_row_VLTQnD",
+        "collapsible_row_wpg4CV",
+        "collapsible_row_et7zPB"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/young-woman-checking-her-phone.avif",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_qqFeej": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EgDM7P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_3XgHzy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get in touch with our team. We're here to help with any questions about your order, account, or our products. Reach out via email, phone, or the contact form below — we'll respond as quickly as we can.</p>"
+          }
+        },
+        "button_NK3hjC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in Tuch",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EgDM7P",
+        "text_3XgHzy",
+        "button_NK3hjC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1cf5f32b-afec-4ecf-b518-6a022a9032a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_p96iTA",
+    "rich_text_qqFeej"
+  ]
+}

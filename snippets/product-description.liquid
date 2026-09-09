@@ -1,0 +1,27 @@
+{%- comment -%}
+  Renders the Product Description section
+
+  Accepts:
+  - product: {Object} the product object with the custom.product_description metafield
+
+  Usage:
+  {% render 'product-description', {product: product} %}
+{%- endcomment -%}
+
+{{ 'product-description.css' | asset_url | stylesheet_tag }}
+
+{% if product.metafields.custom.product_description.value.title != blank %}
+  <div class="page-width">
+    <h2 class="title">{{ product.metafields.custom.product_description.value.title }}</h2>
+    <div class="image-container">
+      {{
+        product.metafields.custom.product_description.value.image
+        | image_url: width: 1000
+        | image_tag: loading: 'lazy', sizes: '(min-width: 750px) 50vw, 100vw)'
+      }}
+    </div>
+    <div>
+      {{ product.metafields.custom.product_description.value.description | metafield_tag }}
+    </div>
+  </div>
+{% endif %}

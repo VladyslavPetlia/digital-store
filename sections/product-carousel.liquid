@@ -1,0 +1,127 @@
+{{ 'glider.min.css' | asset_url | stylesheet_tag }}
+{{ 'carousel.css' | asset_url | stylesheet_tag }}
+
+<h2 style="text-align: {{ section.settings.section-text_align }}">{{ section.settings.title }}</h2>
+
+<div class="page-width glider_container" id="{{ section.id }}">
+  <div class="glider">
+    {% for block in section.blocks %}
+      {% if block.type == 'product' %}
+        <a href="{{ block.settings.product.url | default: '#' }}" class="item">
+          {% if block.settings.product.featured_image != blank %}
+            {{ block.settings.product.featured_image | image_url: width: 1000 | image_tag: class: 'item_image' }}
+          {% else %}
+            {{ 'product-apparel-1' | placeholder_svg_tag: 'item_image placeholder-svg' }}
+          {% endif %}
+
+          <p class="item_title">
+            {{ block.settings.title | default: block.settings.product.title | default: 'Example Product Title' }}
+          </p>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <button class="prev" aria-label="Previous slide">{{ 'icon-arrow.svg' | inline_asset_content }}</button>
+  <button class="next" aria-label="Next slide">{{ 'icon-arrow.svg' | inline_asset_content }}</button>
+</div>
+
+<script
+  src="{{ "glider.min.js" | asset_url }}"
+  onload="document.dispatchEvent(new Event('glider:loaded'))"
+  async
+></script>
+<script>
+  function initCarousel(){
+    new Glider(document.querySelector('.glider'), {
+      slidesToShow: 1,
+      arrows: {
+        prev: '#{{ section.id }} .prev',
+        next: '#{{ section.id }} .next',
+      },
+      responsive: [
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: {{ section.settings.number_slider_desktop }},
+          }
+        },
+      ]
+    });
+  }
+
+  if(window.Glider){
+    initCarousel();
+  } else {
+    document.addEventListener('glider:loaded', () => {
+      initCarousel();
+    })
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Product-Carousel",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Top Products",
+      "info": "Section Title"
+    },
+    {
+      "type": "select",
+      "id": "section-text_align",
+      "label": "Title Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "info": "Choose Title Alignment"
+    },
+    {
+      "type": "number",
+      "id": "number_slider_desktop",
+      "label": "Number of Slider (Desktop)",
+      "default": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product",
+          "info": "Choose Product"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "info": "Optional. Will use the product title if left blank."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Products-Carousel"
+    }
+  ]
+}
+{% endschema %}

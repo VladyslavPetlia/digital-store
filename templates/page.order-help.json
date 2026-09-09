@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {color: #111739;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_banner_RWewAE": {
+      "type": "page-banner",
+      "name": "Page Banner",
+      "settings": {
+        "page_mebaobject_banner": "order-help",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10"
+      }
+    },
+    "multi_section_row_7tcEGd": {
+      "type": "multi-section-row",
+      "blocks": {
+        "multi_section_NdrtPK": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/icon-map-pin.svg",
+            "title": "Track your order",
+            "title_size": 16,
+            "description": "",
+            "link_text": "Link",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_MUbrbf": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/icon-info.svg",
+            "title": "Help with your product",
+            "title_size": 16,
+            "description": "",
+            "link_text": "Link",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_LLhdR8": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/chat-text.svg",
+            "title": "Contact Us",
+            "title_size": 16,
+            "description": "",
+            "link_text": "Link",
+            "url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "multi_section_NdrtPK",
+        "multi_section_MUbrbf",
+        "multi_section_LLhdR8"
+      ],
+      "name": "Multi Section Row",
+      "settings": {
+        "text_color": "#000000",
+        "background_color": "#f9f9f9",
+        "block-item_content": "center"
+      }
+    },
+    "collapsible_content_4zFtBg": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_mBUfyj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I change, modify, or cancel my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Once your order is placed, we process it quickly to get it shipped out. If you need to make changes, please contact our support team as soon as possible — the sooner you reach out, the better chance we have of helping. For cancellations, we can assist if your order hasn't already entered fulfillment. Email us with your order number and let us know what you need, and we'll do our best to help.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DeWPJf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why can't I place an order?",
+            "icon": "check_mark",
+            "row_content": "<p>There are a few common reasons why you might be unable to complete your order. First, check that all required fields in your cart are filled out correctly, including your shipping address and payment information. Make sure your payment method is valid and has sufficient funds available.<br/><br/>If you're experiencing technical issues, try clearing your browser cache and cookies, then attempt your purchase again. You can also try using a different browser or device to see if the problem persists.<br/><br/>If you've tried these steps and still can't place an order, please contact our customer support team. We're here to help and can troubleshoot the issue with you directly.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UPbb6C": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I redeem a promotion?",
+            "icon": "check_mark",
+            "row_content": "<p>To redeem a promotion, enter the promo code at checkout in the \"Discount Code\" field before completing your purchase. Click \"Apply\" to see your savings reflected in the order total. Make sure the code hasn't expired and meets any minimum purchase requirements. If you have trouble applying a code, contact our customer support team for assistance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wRJa8x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where is my order?",
+            "icon": "check_mark",
+            "row_content": "<p>To check your order status, please visit your account dashboard or use the order tracking link sent to your email after purchase. You can also contact our customer service team with your order number, and we'll be happy to help locate your shipment and provide you with the most up-to-date delivery information.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_g8hCYJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why was my order cancelled?",
+            "icon": "check_mark",
+            "row_content": "<p>Orders may be cancelled for several reasons, including payment verification issues, inventory unavailability, or address validation problems. We review each cancellation carefully. If your order was cancelled, you'll receive an email with the specific reason and next steps. Please check your inbox and spam folder, or contact our support team with your order number for immediate assistance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iGwD79": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is my promo code not working?",
+            "icon": "check_mark",
+            "row_content": "<p>Promo codes may not work for several reasons. Check that the code hasn't expired, that you're meeting any minimum purchase requirements, and that the code applies to the items in your cart. Some codes are limited to specific products or categories. If you've entered the code correctly and it still isn't working, contact our support team for assistance.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_mBUfyj",
+        "collapsible_row_DeWPJf",
+        "collapsible_row_UPbb6C",
+        "collapsible_row_wRJa8x",
+        "collapsible_row_g8hCYJ",
+        "collapsible_row_iGwD79"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently asked questions ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_ARB4aH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NQbf4D": {
+          "type": "heading",
+          "settings": {
+            "heading": "Service at your fingertips!",
+            "heading_size": "h1"
+          }
+        },
+        "text_7LwYqt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get help whenever you need it. Our support team is ready to assist with order tracking, returns, shipping questions, and more. Reach out through chat, email, or phone — we're here to make your experience smooth and hassle-free.</p>"
+          }
+        },
+        "button_8j9y7L": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQbf4D",
+        "text_7LwYqt",
+        "button_8j9y7L"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1cf5f32b-afec-4ecf-b518-6a022a9032a6",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_banner_RWewAE",
+    "multi_section_row_7tcEGd",
+    "collapsible_content_4zFtBg",
+    "rich_text_ARB4aH"
+  ]
+}

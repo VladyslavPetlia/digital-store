@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {color: #111739;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_banner_AMXgQx": {
+      "type": "page-banner",
+      "name": "Page Banner",
+      "settings": {
+        "page_mebaobject_banner": "repair-services",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10"
+      }
+    },
+    "multi_section_row_yd3zmT": {
+      "type": "multi-section-row",
+      "blocks": {
+        "multi_section_cqHHWn": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/hugeicons_repair.svg",
+            "title": "Request a Repair",
+            "title_size": 16,
+            "description": "<p>Use your Account to manage your repair requests in a few easy steps.</p>",
+            "link_text": "Contact",
+            "url": "shopify://pages/contact"
+          }
+        },
+        "multi_section_RpUiVG": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/icon-map-pin.svg",
+            "title": "Find a Service Center",
+            "title_size": 16,
+            "description": "<p>Search for a local support center and drop by or call for and appointment.</p>",
+            "link_text": "Search a location",
+            "url": "shopify://blogs/news"
+          }
+        },
+        "multi_section_MN3jPe": {
+          "type": "multi-section",
+          "settings": {
+            "image": "shopify://shop_images/icon-info.svg",
+            "title": "Check Repair Status",
+            "title_size": 16,
+            "description": "<p>Have a repair in progress? Check the status of your repair.</p>",
+            "link_text": "Check repair status",
+            "url": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "multi_section_cqHHWn",
+        "multi_section_RpUiVG",
+        "multi_section_MN3jPe"
+      ],
+      "name": "Multi Section Row",
+      "settings": {
+        "text_color": "#111739",
+        "background_color": "#F9F9F9",
+        "block-item_content": "center"
+      }
+    },
+    "image_with_text_ENDFkF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Fkx3V4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Repair Status",
+            "heading_size": "h1"
+          }
+        },
+        "text_wCf8Rt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're currently performing scheduled maintenance on our digital store to improve your experience. Our team is working to restore full functionality as quickly as possible.<br/><br/>During this time, you may experience limited access to certain features. We appreciate your patience and will have everything back online shortly.<br/><br/>If you have any urgent questions, please reach out to our support team. Thank you for your understanding.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_VL4aCe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Check Status",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fkx3V4",
+        "text_wCf8Rt",
+        "button_VL4aCe"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/bruce-mars-FWVMhUa_wbY-unsplash.avif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_QV3HCe": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_V9fwF6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much will my repair cost?",
+            "icon": "check_mark",
+            "row_content": "<p>Repair costs vary depending on the item and the type of damage. We'll assess your repair request and provide you with a detailed quote before proceeding. Contact our service team with photos or details of what needs repair, and we'll give you an accurate estimate.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MX4FMr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What information do I need before beginning my repair request?",
+            "icon": "check_mark",
+            "row_content": "<p>Before starting your repair request, please have the following information ready:<br/><br/>Your order number or purchase date so we can locate your account and verify your purchase history.<br/><br/>A clear description of the issue you're experiencing, including when the problem started and how it affects the product's performance.<br/><br/>Photos or videos of the damage or malfunction, if applicable. This helps our team assess the situation quickly and accurately.<br/><br/>Your preferred contact method and best time to reach you during business hours.<br/><br/>The original product packaging or serial number if available, as this speeds up the verification process.<br/><br/>Any warranty documentation or proof of purchase you have on file.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jreGtc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need a Account to start a repair request?",
+            "icon": "check_mark",
+            "row_content": "<p>No, you don't need an account to start a repair request. You can begin the process as a guest and create an account later if you'd like to track your repair status or manage future requests.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VwHt6W": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My product is working fine, but I am missing a part. What can I do?",
+            "icon": "check_mark",
+            "row_content": "<p>If your product is missing a part, we're here to help. Contact our customer service team with your order number and a description of the missing item. We'll arrange a replacement or refund right away. Most issues are resolved within 2-3 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CCh8B4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I update or check my warranty status?",
+            "icon": "check_mark",
+            "row_content": "<p>To check or update your warranty status, visit your account dashboard and select \"Warranty Information\" from the menu. You can view your current coverage, expiration dates, and any active claims. If you need to make changes or have questions about your specific warranty, contact our support team with your order number and we'll assist you right away.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_V9fwF6",
+        "collapsible_row_MX4FMr",
+        "collapsible_row_jreGtc",
+        "collapsible_row_VwHt6W",
+        "collapsible_row_CCh8B4"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Commonly asked questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "color_scheme": "scheme-86b67922-8fab-49cb-a09e-8bd4215fcf10",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_banner_AMXgQx",
+    "multi_section_row_yd3zmT",
+    "image_with_text_ENDFkF",
+    "collapsible_content_QV3HCe"
+  ]
+}
